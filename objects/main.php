@@ -5,7 +5,6 @@ class Components{
         
         // Defines variables
         define('_SITETITLE', 'The Linux Gamer');
-        // define('_PATH', '/home/gmoody88/public_html/');
         define('_PATH', '/var/www/html/');
         define('_ARTICLES', _PATH . 'articles/');
         define('_META', _PATH . 'meta/');
