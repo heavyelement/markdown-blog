@@ -164,6 +164,7 @@ class Articles{
                     <?php echo date('l F jS, Y - g:i A',$meta['date']); ?>
                 </div>
             </div>
+            <hr>
         </article>
 
 <?php

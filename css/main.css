@@ -89,7 +89,7 @@ nav .nav-option a{
 }
 article {
     width: 50em;
-    margin: 0 0 8em 400px;
+    margin: 0 0 0 400px;
     padding: 1em;
 }
 article + article{
@@ -226,8 +226,9 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
     padding: 0;
+    width:10em;
+    margin:10em auto 0;
 }
 
 /*
