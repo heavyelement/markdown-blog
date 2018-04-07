@@ -225,10 +225,11 @@ class Articles{
             $nextHref = '#';
             $classN = 'class="disabled"';
         }
-
-        echo "<div id='post-nav' class='gradient-background'>";
-        echo "<a href='$prevHref' $classP>&#x21B6;</a>";
-        echo "<a href='$nextHref' $classN>&#x21B7;</a>";
+        echo "<div id='navWrapper'>";
+            echo "<div id='post-nav' class='gradient-background'>";
+            echo "<a href='$nextHref' $classN><span class='ion-android-arrow-dropleft-circle'></span></a>";
+            echo "<a href='$prevHref' $classP><span class='ion-android-arrow-dropright-circle'></span></a>";
+            echo "</div>";
         echo "</div>";
     }
 

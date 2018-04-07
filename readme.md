@@ -20,5 +20,4 @@ Before you can start posting, you'll need to manually define the first user. Cre
 ```
 
 ## What this is:
-
 What's here almost completely what is on my website. It was designed by me, for me. If you want to help expand this project, let me know!

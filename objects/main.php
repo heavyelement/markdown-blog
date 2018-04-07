@@ -5,7 +5,8 @@ class Components{
         
         // Defines variables
         define('_SITETITLE', 'The Linux Gamer');
-        define('_PATH', '/var/www/html/');
+        define('_PATH', '/home/gmoody88/public_html/');        
+        // define('_PATH', '/var/www/html/');
         define('_ARTICLES', _PATH . 'articles/');
         define('_META', _PATH . 'meta/');
         define('_ARTICLEGETVAR', 'id');
@@ -84,9 +85,9 @@ class Components{
                 <li id="donate" class="nav-option">
                     <a href="/page/?p=contribute">Contribute</a>
                 </li>
-                <li id="video-link" class="nav-option">
+                <!-- <li id="video-link" class="nav-option">
                     <a href="/predictions/">Predictions<span class="hide-until-mouse ion-link"></span></a>
-                </li>
+                </li> -->
             </ul>
             <div id="housekeeping">
                 <div class="soc-group">

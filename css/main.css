@@ -281,7 +281,10 @@ textarea {
     min-height:100vh;
     position: relative;
 }
-
+#navWrapper{
+    width: 50em;
+    margin: 0 0 8em 400px
+}
 #post-nav{
     border-radius: 35px;
     display: flex;
@@ -303,7 +306,6 @@ textarea {
     color: #fff;
     font-size: 3em;
     text-align: center;
-    padding-top: 12px;
     text-decoration: none;
 }
 .container{
