@@ -8,11 +8,13 @@ If you would like to review the code or fork this repo, feel free! It's GPL lice
 ## Defining a user:
 Before you can start posting, you'll need to manually define the first user. Create `users.json` in `resources/cfg/`.
 
-```{
+```
+{
     "username" :{
         "uname": "username",
         "fname": "Full Name",
         "pword": "$2y$10$8skal8389osdc/nujakeuncsda8.3899mcasdakj",
         "image":"/img/users/Gardiner.png"
     }
-}```
+}
+```
