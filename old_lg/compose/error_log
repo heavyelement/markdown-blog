@@ -1,0 +1,13 @@
+[07-Oct-2017 18:07:12 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/gmoody88/public_html/login.php on line 20
+[07-Oct-2017 18:09:38 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/gmoody88/public_html/login.php on line 20
+[07-Oct-2017 18:09:42 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/gmoody88/public_html/login.php on line 20
+[07-Oct-2017 18:10:34 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/gmoody88/public_html/login.php on line 20
+[07-Oct-2017 18:44:12 UTC] PHP Notice:  Undefined index: id in /home/gmoody88/public_html/compose/index.php on line 6
+[07-Oct-2017 18:46:23 UTC] PHP Notice:  Undefined index: id in /home/gmoody88/public_html/compose/index.php on line 6
+[08-Oct-2017 03:14:31 UTC] PHP Notice:  Undefined index: username in /home/gmoody88/public_html/compose/index.php on line 54
+[08-Oct-2017 03:14:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/gmoody88/public_html/login.php on line 3
+[08-Oct-2017 03:14:39 UTC] PHP Notice:  Undefined index: username in /home/gmoody88/public_html/compose/index.php on line 54
+[08-Oct-2017 03:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/gmoody88/public_html/login.php on line 3
+[08-Oct-2017 03:14:39 UTC] PHP Notice:  Undefined index: id in /home/gmoody88/public_html/compose/index.php on line 6
+[08-Oct-2017 04:03:36 UTC] PHP Notice:  Undefined index: username in /home/gmoody88/public_html/compose/index.php on line 54
+[08-Oct-2017 04:03:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/gmoody88/public_html/login.php on line 3
