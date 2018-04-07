@@ -5,7 +5,7 @@ I built this simple markdown blogging site based on the Parsedown project. You c
 
 If you would like to review the code or fork this repo, feel free! It's GPL licensed.
 
-##Defining a user:
+## Defining a user:
 Before you can start posting, you'll need to manually define the first user. Create `users.json` in `resources/cfg/`.
 
 ```{
