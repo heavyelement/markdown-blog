@@ -96,17 +96,30 @@ article + article{
     /* border-top: 2px dashed #ff962d; */
 }
 blockquote{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.75);
     font-style:italic;
     padding: 1em 1.75em 1em 4em; 
     color: white;
     margin: 1em;
     position: relative;
+    display: block;
     transition: background-color .5s;
     border-left:7px solid #000;
 }
-blockquote:hover{
+blockquote:before{
+    content: "\00a0";
+    display:block;
+    position: absolute;
     background-color: #000;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    top: 0;
+    left:0;
+    transition: width .5s;
+}
+blockquote:hover:before{
+    width:100%;
 }
 blockquote i, blockquote em{
     font-style: normal;
@@ -422,7 +435,6 @@ a.editLink{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: black;
 }
 a.ion-eye{
     font-size:1.4em;
