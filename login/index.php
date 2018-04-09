@@ -14,7 +14,8 @@
     if(array_key_exists($_POST['username'], _USERS)){
         if(password_verify($_POST['password'], _USERS[$_POST['username']]['pword'])){
             $_SESSION = _USERS[$_POST['username']];
-            header('Location: /' . $_GET['return']);
+            $location = "Location: /" . http_build_query($_GET);
+            header($location);
         }
         else{
             $msg = 'Username or password invalid';

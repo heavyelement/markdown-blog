@@ -95,6 +95,22 @@ article {
 article + article{
     /* border-top: 2px dashed #ff962d; */
 }
+blockquote{
+    background-color: rgba(0,0,0,.5);
+    font-style:italic;
+    padding: 1em 1.75em 1em 4em; 
+    color: white;
+    margin: 1em;
+    position: relative;
+    transition: background-color .5s;
+    border-left:7px solid #000;
+}
+blockquote:hover{
+    background-color: #000;
+}
+blockquote i, blockquote em{
+    font-style: normal;
+}
 footer{
     background: #000;
     color: #fff;
@@ -224,11 +240,13 @@ input[type='checkbox']{
 hr {
     display: block;
     height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ddd;
     padding: 0;
-    width:10em;
-    margin:10em auto 0;
+    width: 10em;
+    margin: 10em auto 6em;
+    border-radius: 4px;
+    border-bottom: 2px solid #ddd;
+    background-color: #ddd;
 }
 
 /*
@@ -284,7 +302,8 @@ textarea {
 }
 #navWrapper{
     width: 50em;
-    margin: 0 0 8em 400px
+    margin: 0 0 8em 400px;
+    padding: 1em;
 }
 #post-nav{
     border-radius: 35px;
@@ -371,6 +390,10 @@ textarea {
     flex-direction: row;
     width: 150%;
 }
+.composerElement{
+    display:inline-block;
+    vertical-align:top;
+}
 button, input[type=submit]{
     padding: 10px;
     margin:10px;
@@ -392,6 +415,17 @@ textarea,iframe{
 }
 iframe, #form-wrap{
     /* width: 45%; */
+}
+a.editLink{
+    display: inline-block;
+    max-width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: black;
+}
+a.ion-eye{
+    font-size:1.4em;
 }
 
 

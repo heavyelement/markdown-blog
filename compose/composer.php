@@ -12,7 +12,9 @@
     $articles = new Articles;
     
     echo "<article>";
-    $articles->saveArticle();
+
+    $articles->saveArticle($_SESSION['uname']);
+    echo $_SESSION['uname'];
     echo "</article>";
 
     $main->renderFooter();

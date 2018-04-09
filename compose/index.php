@@ -26,14 +26,14 @@
         }
 
 ?>
-<article>
+<article class='composerElement'>
 <form id='composer' action='composer.php' method='post'>
     <h1>Write a New Post</h1>
     <fieldset class='compose--grid'>
     <!-- <div class='compose--group'> -->
         <div class='compose--meta col1span2 row1span1'>
             <label class='block'>Article Name</label>
-            <input type='text' name='meta[title]' class='compose--title' value='<?php echo $edit['title'] ?>'/>
+            <input type='text' name='meta[title]' class='compose--title' value='<?php echo htmlspecialchars($edit['title'],ENT_QUOTES) ?>'/>
         </div>
         <div class='compose--meta col3span1 row1span1'>
             <label class='block'>Author</label>
@@ -68,7 +68,9 @@
         <div class='compose--meta col3span1 row2span1'>
             <div>
                 <input type='checkbox' id='metahidden' name='meta[hidden]' value='true' <?php ($edit['hidden'] === "true") ? "checked" : "";?>/>
-                <label for='metahidden'>Hidden Post</label>
+                <label for='metahidden'>Hidden Post</label><br>
+                <input type='checkbox' id='metapage' name='meta[page]' value='true' <?php ($edit['page'] === "true") ? "checked" : "";?>/>
+                <label for='metapage'>Is this a page?</label>
             </div>
         </div>
         </div>
@@ -107,6 +109,7 @@ Write your post in <em>markdown</em>
 </table>
 </article>
 <?php
+        $articles->renderDirectory();
     }
     $main->renderFooter();
 
